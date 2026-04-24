@@ -98,6 +98,28 @@ Client setup on Ubuntu can then use:
 
 The RPM helper expects `createrepo_c` on the build host.
 
+## Launchpad PPA
+
+This repository also includes Debian source packaging under `debian/`, so you can
+build a source package for Launchpad PPAs directly from the source tree.
+
+Build the source package:
+
+```bash
+debuild -S -sa
+```
+
+Upload it to Launchpad:
+
+```bash
+dput ppa:raiyanhossain/ppa ../bhipconfig_$(dpkg-parsechangelog -SVersion)_source.changes
+```
+
+Launchpad builds binaries from the uploaded source package, so you do not upload
+the prebuilt `.deb` file to a PPA.
+The current changelog targets Ubuntu `noble`; for another Ubuntu series, update
+`debian/changelog` before building.
+
 ## Safety model
 
 - `Add IP` is a wizard for no-IP interfaces; if you also set a gateway, it is rollback-protected

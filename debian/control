@@ -1,0 +1,18 @@
+Source: bhipconfig
+Section: admin
+Priority: optional
+Maintainer: Raiyan Hossain Rafid <raiyanrafid41@gmail.com>
+Build-Depends: debhelper-compat (= 13), python3
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+Homepage: https://github.com/RaiyanRafid/bhipconfig
+Vcs-Browser: https://github.com/RaiyanRafid/bhipconfig
+Vcs-Git: https://github.com/RaiyanRafid/bhipconfig.git
+
+Package: bhipconfig
+Architecture: all
+Depends: ${misc:Depends}, python3, iproute2
+Description: Interactive Linux network control surface for servers
+ A dependency-light terminal UI for live Linux network management.
+ It wraps iproute2 and resolver tooling behind a safer menu-driven
+ interface with rollback protection for disruptive changes.
