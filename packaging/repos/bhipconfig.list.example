@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/keyrings/bhipconfig-archive-keyring.gpg] https://your-domain.example/apt stable main

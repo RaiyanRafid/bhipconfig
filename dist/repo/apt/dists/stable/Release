@@ -1,0 +1,32 @@
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Fri, 24 Apr 2026 01:29:36 +0000
+Description: Bahari APT repository for bhipconfig
+Label: Bahari
+Origin: Bahari
+Suite: stable
+MD5Sum:
+ 181bea651526c6e8575bdfb0d4686a9e              192 Release
+ 2fe9af1341e30861e919f2155bff6d9c              646 main/binary-amd64/Packages
+ 8eb90f85ad92077c32d36a2c5bae2706              467 main/binary-amd64/Packages.gz
+ 2fe9af1341e30861e919f2155bff6d9c              646 main/binary-arm64/Packages
+ 7a2cd1412bd46b52120b079e349ba079              467 main/binary-arm64/Packages.gz
+SHA1:
+ 072731b0e2ee577f8b2e001f65bb49e98d79041c              192 Release
+ 2380051aeb08205e76e6c5440874ca4f7792c8c9              646 main/binary-amd64/Packages
+ 728d19a2128d80b161f6ec5d22027043fe4f68e8              467 main/binary-amd64/Packages.gz
+ 2380051aeb08205e76e6c5440874ca4f7792c8c9              646 main/binary-arm64/Packages
+ 3f13937b34fd1802c34198725772d352e4c695b0              467 main/binary-arm64/Packages.gz
+SHA256:
+ e01c4526bac97b1db18ef95381d61e2b7be4eab56fbdc05d539ac94686f7dd71              192 Release
+ f08951c24ea759a2842397d755eed23eac442f1d3f813e5f2cd6ba9abbf4f738              646 main/binary-amd64/Packages
+ 8a972ef6105eaa19c0b66143116d3834594220eab667418ae378092a6ec87bce              467 main/binary-amd64/Packages.gz
+ f08951c24ea759a2842397d755eed23eac442f1d3f813e5f2cd6ba9abbf4f738              646 main/binary-arm64/Packages
+ 982a6252bc3c530fa2b8f80fedf5548f8c6a7da6c9ff44c93f687da46cd12a51              467 main/binary-arm64/Packages.gz
+SHA512:
+ e64c486637b7f2cfef5ed9ce6979d488815454f7a61de5a61813f720085f931223510fe72adb875e3a0ef00d2daa19cb1a124a366698ab86759d90ef3c05ca04              192 Release
+ b0c544d060fd087bed162586c096d513098b0990bc727f54166f7fc830985326ad09be09a1431aa6cf1667f10551a4c7e3137f51a8216df52c14a7b094fbbb4c              646 main/binary-amd64/Packages
+ 4533ffd0ea2eaca8ade39546deb4026573289d1e3350a372e3b67d86c8407f39fab348b5a3026abf0397eadfbd371a41d3466446ba9add944fdb9c484f741bfc              467 main/binary-amd64/Packages.gz
+ b0c544d060fd087bed162586c096d513098b0990bc727f54166f7fc830985326ad09be09a1431aa6cf1667f10551a4c7e3137f51a8216df52c14a7b094fbbb4c              646 main/binary-arm64/Packages
+ 1a6c4de07d0b1be6106d41991a972b19b521c004ce2ccbcc77d5681f9e33ff6eb25cd459373110559065fa114161f14be4b96550ca5693dacb0567a975a5eeb5              467 main/binary-arm64/Packages.gz

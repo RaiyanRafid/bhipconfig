@@ -1,0 +1,11 @@
+Package: bhipconfig
+Version: 1.0.0
+Section: admin
+Priority: optional
+Architecture: all
+Depends: python3
+Maintainer: Bahari Network Team <packages@bahari.local>
+Description: Futuristic CLI network manager for Linux servers
+ A dependency-light interactive network control surface for Linux.
+ It wraps iproute2 and resolver tooling behind a safer terminal UI
+ with rollback protection for disruptive network changes.

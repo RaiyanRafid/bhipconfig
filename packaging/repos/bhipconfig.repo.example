@@ -1,0 +1,5 @@
+[bhipconfig]
+name=Bahari bhipconfig Repository
+baseurl=https://your-domain.example/rpm/
+enabled=1
+gpgcheck=0
