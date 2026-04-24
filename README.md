@@ -47,6 +47,10 @@ bhipconfig
 
 ## Packaging
 
+This repository keeps only source files in Git. Generated build outputs such as
+`dist/` and `publish/` are created locally when you run the packaging scripts and
+are intentionally ignored.
+
 There is no single native package format that both `apt` and `yum`/`dnf` install directly.
 To support Ubuntu and AlmaLinux cleanly, this repo now includes both package targets:
 
